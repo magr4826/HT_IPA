@@ -20,10 +20,11 @@ All version numbers are the versions that were tested - other version might work
 **USAGE:**
 
 1. Convert the Alexandria database into .pckl-files using the conversion.ipynb notebook and place them in the input_data folder
-2. Specify the name of the .pckl-file and the workflows to run in the HT_watcher.py script
-3. If necessary, adapt the HT_watcher.py script and the start_calc function in basic_utils.py to your cluster
-4. Run the HT_watcher.py script
-5. If necessary, restart failed calculations using HT_restart.py or HT_full_restart.py
+2. Create an empty folder named "database" and a folder named "CONTROL", which contains the file "NCORES". In this file, specify the total number of cores you want to use (e.g., 640)
+3. Specify the name of the .pckl-file and the workflows to run in the HT_watcher.py script
+4. If necessary, adapt the HT_watcher.py script and the start_calc function in basic_utils.py to your cluster
+5. Run the HT_watcher.py script
+6. If necessary, restart failed calculations using HT_restart.py or HT_full_restart.py
 
 
 **DATABASE:**
