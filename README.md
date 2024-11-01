@@ -1,5 +1,7 @@
 # High Throughput IPA (HT_IPA)
-Code to run High Throughput IPA calculations on the Alexandria database [1]
+Code to run High Throughput IPA calculations on the Alexandria database [1].
+The workflow was created as part of the article *Deep learning of spectra: Predicting the dielectric function of semiconductors* [2].
+The final result of the the calculations is available at [figshare](https://www.doi.org/10.6084/m9.figshare.27440652).
 
 **REQUIREMENTS:**
 All version numbers are the versions that were tested - other version might work, but success is not guaranteed.
@@ -53,3 +55,4 @@ params:
 
 
 [1] https://alexandria.icams.rub.de/
+[2] M. Grunert, M. Großmann and E. Runge, **Deep learning of spectra: Predicting the dielectric function of semiconductors**, *Phys. Rev. Materials* (2024)
